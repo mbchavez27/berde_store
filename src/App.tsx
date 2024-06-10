@@ -5,9 +5,11 @@ import Items from "./components/items";
 function App() {
   return (
     <>
-      <NavBar></NavBar>
-      <Store></Store>
-      <Items></Items>
+      <div className="bg-[#C5DBC0] h-screen">
+        <NavBar></NavBar>
+        <Store></Store>
+        <Items></Items>
+      </div>
     </>
   );
 }
