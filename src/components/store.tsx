@@ -2,7 +2,7 @@ const Store = () => {
   return (
     <>
       <div className="w-full h-72 bg-[url('./assets/lscscanvas.png')] bg-cover bg-center flex items-end justify-around p-4 text-green-800 font-JetBrains">
-        <div className="flex items-center bg-[#FFFFFF] p-1 rounded-lg text-sm">
+        <div className="flex items-center bg-[#FFFFFF] px-2 rounded-xl text-sm">
           <img
             src="https://researchfair.upalchemes.org/wp-content/uploads/LSCS-1.png"
             alt=""
@@ -38,7 +38,7 @@ const Store = () => {
             </svg>
           </div>
         </div>
-        <div className="flex items-center bg-[#FFFFFF] p-2 rounded-lg">
+        <div className="flex items-center bg-[#FFFFFF] p-2 rounded-xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
