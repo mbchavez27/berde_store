@@ -1,14 +1,14 @@
 const NavBar = () => {
   return (
     <>
-      <header className="bg-[#C5DBC0] flex font-JetBrains text-2xl justify-evenly items-center py-4 text-green-800">
+      <header className="bg-[#56196C] flex font-JetBrains text-2xl justify-evenly items-center py-4 text-[#FFFFFF]">
         <div className="font-bold">berde.store</div>
         <div className="relative flex items-center">
           <input
             type="text"
             name=""
             id=""
-            className="bg-[#F1FFED] rounded-lg shadow-lg text-sm p-2 box-border w-80"
+            className="bg-[#FFFFFF] rounded-lg shadow-lg text-sm p-2 box-border w-80 text-[#56196C]"
           />
           <div className="absolute top-1 left-72">
             <svg

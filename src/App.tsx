@@ -5,7 +5,7 @@ import Items from "./components/items";
 function App() {
   return (
     <>
-      <div className="bg-[#C5DBC0] h-full">
+      <div className="bg[#EFEFEF] h-full">
         <NavBar></NavBar>
         <Store></Store>
         <Items></Items>
