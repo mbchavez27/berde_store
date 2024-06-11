@@ -3,12 +3,12 @@ const NavBar = () => {
     <>
       <header className="bg-[#C5DBC0] flex font-JetBrains text-2xl justify-evenly items-center py-4 text-green-800">
         <div className="font-bold">berde.store</div>
-        <div className="relative">
+        <div className="relative flex items-center">
           <input
             type="text"
             name=""
             id=""
-            className="bg-[#F1FFED] rounded-md shadow-md"
+            className="bg-[#F1FFED] rounded-lg shadow-lg text-sm p-2 box-border w-80"
           />
           <div className="absolute top-1 left-72">
             <svg

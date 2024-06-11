@@ -1,7 +1,7 @@
 const Item = () => {
   return (
     <>
-      <div className="font-JetBrains w-60 m-1 mt-4">
+      <div className="font-JetBrains w-60 m-1 mt-4 shadow-md">
         <div className="bg-[url('./assets/macky_1.png')] bg-fill bg-center w-60 h-60 bg-gray-200 flex items-end p-2">
           <div className="bg-[#C1FF72] px-4 py-2 text-xs font-bold">
             LIMITED STOCK!
@@ -22,7 +22,13 @@ const Item = () => {
 const Items = () => {
   return (
     <>
-      <div className="flex justify-left flex-wrap ml-36">
+      {/* <div className="flex justify-left flex-wrap ml-36"> */}
+      <div className="grid grid-cols-4 px-56 py-1 justify-center">
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
+        <Item></Item>
         <Item></Item>
         <Item></Item>
         <Item></Item>

@@ -1,7 +1,7 @@
 const Store = () => {
   return (
     <>
-      <div className="w-full h-72 bg-[url('./assets/lscscanvas.png')] bg-cover bg-center flex items-end justify-evenly p-4 text-green-800 font-JetBrains">
+      <div className="w-full h-72 bg-[url('./assets/lscscanvas.png')] bg-cover bg-center flex items-end justify-around p-4 text-green-800 font-JetBrains">
         <div className="flex items-center bg-green-100 p-1 rounded-lg text-sm">
           <img
             src="https://researchfair.upalchemes.org/wp-content/uploads/LSCS-1.png"
