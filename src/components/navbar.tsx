@@ -1,7 +1,7 @@
 const NavBar = () => {
   return (
     <>
-      <header className="bg-[#56196C] flex font-JetBrains text-2xl justify-evenly items-center py-4 text-[#FFFFFF]">
+      <header className="sticky top-0 z-50 bg-[#56196C] flex font-JetBrains text-2xl justify-evenly items-center py-4 text-[#FFFFFF]">
         <div className="font-bold">berde.store</div>
         <div className="relative flex items-center">
           <input
